@@ -55,4 +55,11 @@ public class Contact {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Contact [firstname=" + firstname + ", lastname=" + lastname
+				+ "]";
+	}
+	
 }
